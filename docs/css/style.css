@@ -1,0 +1,26 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+a{
+    color: #5a9cd8;
+    font-weight: bold;
+}
+pre {
+    background: lightgray;
+    border-radius: 5px;
+    display: inline-block;
+    clear: both;
+    padding:1%;
+}
+.doc-item{
+   /* border-bottom: 1px solid lightgray;*/
+}
+.doc-item h4{
+    padding-bottom: 1%;
+    margin-bottom: 2%;
+    border-bottom: 1px solid lightgray;
+}

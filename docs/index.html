@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentación / Documentation</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header mt-5 mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1>TA Subscriptions Plugin</h1>
+                    <hr>
+                </div>
+            </div>
+            <div class="row menu">
+                <div class="col-12" class="d-inline-block"><a href="#spanish">Documentación Español</a> - <a
+                        href="#english" class="d-inline-block">English Docs</a></div>
+            </div>
+        </div>
+    </header>
+    <section id="spanish" class="container mt-5">
+        <div class="row">
+            <div class="col-12">
+                Este plugin fue desarrollado como parte de una estrategia <strong>Open Source</strong> para medios de todo el
+                mundo basada en el CMS <strong>WordPress</strong>.<br />
+                Haciendo click en este <a href="https://tiempoar.com.ar/proyecto-colaborativo/" target="_blank">enlace</a> se puede encontrar más información sobre el proyecto, así como las lista de
+                plugins que complementan a este para tener un sitio completamente funcional.
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h3>Documentación Español</h3>
+                <p>Suscripciones es un plugin para medios gráficos o periódicos online, pensado para medios de Argentina
+                    en un primer momento pero extensible a cualquier región del mundo.</p>
+                <p>Por defecto, el realiza el débito automático por Mercadopago y cuenta con una opción para crear un
+                    débito automático por banco, pero de forma manual ya que no se cuenta con API de entidades
+                    bancarias. Ambos medios de pago son configurables por el usuario.</p>
+                <p>Al ser un plugin, se pueden extender o agregar los medios de pago que se necesiten para extender el
+                    plugin.</p>
+                <p>El plugin se creó de forma que pueda ser editable el front a gusto del usuario por cualquier
+                    desarrollador, ya que se siguió las recomendaciones y documentación base de Wordpress. De esta
+                    forma, utilizando la gran comunidad con la que cuenta Wordpress, las respuestas a dudas que no estén
+                    en esta documentación (a nivel técnico) se pueden encontrar en el Codex de Wordpress o en los
+                    numerosos foros y blogs técnicos de la Web.</p>
+                <p>En cuanto a Mercadopago, cuenta con documentación que dejamos en el siguiente enlace:
+                    <br /><a href="https://www.mercadopago.com.ar/developers/es/guides" target="blank">Mercadopago
+                        DOCS</a><br />
+                    Se puede acceder específicamente a la parte de suscripciones desde el este <a
+                        href="https://www.mercadopago.com.ar/developers/es/guides/online-payments/subscriptions/introduction"
+                        target="_blank">enlace</a>
+                </p>
+                <p>
+                    <a href="https://drive.google.com/file/d/1_4TFndl8cGIItw0UU3PLMvjVCTt3m4K1/view?usp=sharing" class="btn btn-secondary" target="_blank"><i class="bi bi-file-earmark-play-fill"></i> Ver Video Presentación</a>
+                </p>
+                <hr>
+               
+            </div>
+        </div>
+    </section>
+    <section id="content-spanish" class="container mt-5">
+        <div class="row">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-md-3 col-12 menu-side">
+                        <h3>Tabla de contenidos</h3>
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <a href="#instalacion">Instalación</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#config-1">Configuración</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#disenio">Diseño y plantillas</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#options">Plugin Options</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="#actions">Plugin Actions</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-9 col-12 content-main">
+                        <div id="instalacion" class="doc-item mb-5">
+                            <h4>Instalación</h4>
+                            <p>
+                                Para instalar el plugin, primero debe clonarlo o descargarlo de este repositorio:
+                            </p>
+                            <p>
+                                <a href="https://github.com/TiempoArgentino/ta-suscriptions" target="_blank"
+                                    class="btn btn-dark btn-lg"><i class="bi bi-github"></i> GitHub</a>
+                            </p>
+                            <p>Clonar:
+                                <br />
+                            <pre>$ git clone https://github.com/TiempoArgentino/ta-suscriptions.git</pre>
+                            </p>
+                            <p>Descargar: en la pestaña code boton code (verde) del repositorio, descargar desde
+                                <strong>Download ZIP</strong> como se muestra en la imagen:<br>
+                                <img src="img/img1.png" class="img-fluid">
+                            </p>
+                            <p>
+                                Una vez clonado o descargado, se debe mover la carpeta <strong>subscriptions</strong> al
+                                directorio<br />
+                            <pre>wp-content/plugins</pre>
+                            <br> de su instalación de Wordpress.
+                            </p>
+                            <p class="fst-italic small bg-light p-3 rounded">
+                                <strong>IMPORTANTE</strong><br />
+                                Tenga en cuenta que la carpeta <strong>subscriptions-main</strong> debe ser renombrada a
+                                <strong>subscriptions</strong> o puede haber problemas con la instalación.
+                            </p>
+                            <p>
+                                Una vez que se descomprime y renombra la carpeta, nos dirigimos a la lista de plugins,
+                                buscamos <strong>Subscriptions</strong> o <strong>Suscripciones</strong>(según su
+                                idioma) y lo activamos.<br />
+                                <img src="img/img2.png" class="img-fluid mt-3">
+                                <span class="fst-italic small d-block p-3 rounded bg-light mt-2 ">
+                                    Más información sobre manejo de plugins (en Inglés):<br />
+                                    <a href="https://wordpress.org/support/article/managing-plugins/"
+                                        target="_blank">Wordpress Codex Plugins</a>
+                                </span>
+                            </p>
+                            <p>
+                                Se debe extender las funciones con el plugin User Panel, especialmente creado para
+                                acompañar a Suscriciones.<br />
+                                El plugin se puede descargar o clonar de este repositorio: <br />
+                                <a href="https://github.com/TiempoArgentino/ta-user-panel" target="_blank"
+                                    class="btn btn-dark btn-lg mt-3 mb-3"><i class="bi bi-github"></i> GitHub</a>
+                            </p>
+                            <p>Al igual que con Suscripciones, una vez clonado o descomprimido, se debe renombrar la
+                                carpeta a <strong>user-panel</strong> y pasarla a <strong
+                                    class="fst-italic">wp-content/plugins</strong>, luego activar el plugin desde la
+                                lista de plugins de la instalación de Wordpress.</p>
+                        </div>
+                        <div id="config-1" class="doc-item mb-5">
+                            <h4>Configuración</h4>
+                            <p>
+                                Con el plugin ya instalado y activo, nos dirigimos al nuevo menú creado
+                                <strong>Subscriptions</strong> o <strong>Suscripciones</strong> según su idioma:<br />
+                                <img src="img/img3.png" class="img-fluid mt-3 mb-3"><br />
+                                En esta parte nos encontramos con los siguientes submenus:<br>
+                                <img src="img/img4.png" class="img-fluid mt-3 mb-3"><br />
+                            <ul class="numerada">
+                                <li><a href="#presentacion">Suscripciones (presentación)</a></li>
+                                <li><a href="#suscripciones">Suscripciones</a></li>
+                                <li><a href="#membresias">Membresías</a></li>
+                                <li><a href="#emails">Emails y Estados</a></li>
+                                <li><a href="#pagos">Opciones de pago</a></li>
+                                <li><a href="#configuracion">Opciones</a></li>
+                            </ul>
+                            </p>
+                            <p>
+                            <h5 id="presentacion" class="mt-5">Suscripciones (presentación)</h5>
+                            <p>Breve resumen de la función principal del plugin y enlaces a documentación.</p>
+                            </p>
+                            <p>
+                            <h5 id="suscripciones" class="mt-3">Suscripciones</h5>
+                            <p>En esta parte podemos crear, editar y borrar las suscripciones propiamente dichas</p>
+                            <p>
+                                Ver: <br /><a href="#crear">Crear</a>
+                            </p>
+                            </p>
+                            <p>
+                            <h5 id="membresias" class="mt-3">Membresías</h5>
+                            <p>En esta pantalla encontramos todas las membresías activas, sus renovaciones y
+                                cancelaciones.</p>
+                            <p>
+                                Ver:<br />
+                                <a href="#mem-conf">Manejo de membresías</a>
+                            </p>
+                            </p>
+                            <p>
+                            <h5 id="emails" class="mt-3">Emails y Estados</h5>
+                            <p>En esta pantalla encontramos los estados y emails que se envian al cliente, podemos
+                                configurar los textos por ejemplo, o crear nuevos estados para el uso en membresías de
+                                ser necesario.</p>
+                            <p>
+                                Ver:<br />
+                                <a href="#email-conf">Configuración de Emails y Estados</a>
+                            </p>
+                            </p>
+                            <p>
+                            <h5 id="pagos" class="mt-3">Opciones de pago</h5>
+                            <p>Pantalla de configuración de medios de pago.</p>
+                            <p>
+                                Ver: <br />
+                                <a href="#pagos-conf">Configuración de Medios Pago</a>
+                            </p>
+                            </p>
+                            <p>
+                            <h5 id="configuracion" class="mt-3">Opciones</h5>
+                            <p>Configuración general de todo el plugin y sus opciones.</p>
+                            <a href="#opciones-conf">Configuración básica del plugin</a>
+                            </p>
+                            <p>
+                                <a href="https://drive.google.com/file/d/1igrCUDU-hf_FEd00ldjFQyUA_ZJZvLGQ/view?usp=sharing" class="btn btn-secondary" target="_blank">Video Tutoriales</a>
+                            </p>
+                            <hr class="mt-5 mb-5">
+                            <div id="crear" class="mt-3">
+                                <h6 class="fw-bold">Crear Suscripciones</h6>
+                                <p>
+                                    Primero, debemos recordar que Suscripciones o Subscriptions es un POST TYPE que
+                                    funciona muy parecido a una entrada básica de Wordpress, más información:<br />
+                                    <a href="https://developer.wordpress.org/themes/basics/post-types/"
+                                        target="_blank">https://developer.wordpress.org/themes/basics/post-types/</a>
+                                </p>
+                                <p>
+                                    Para crear suscripciones no dirigimos al menú Suscripciones en nuestro
+                                    administrador, Nueva Suscripción (recuerde que esto puede estar en inglés, según la
+                                    configuración de su instalación).<br />
+                                    <img src="img/img5.png" class="mt-3 mb-3 img-fluid">
+                                </p>
+                                <p>
+                                    Al hacer click en el botón vemos lo siguiente:
+                                    <img src="img/img6.png" class="mt-3 mb-3 img-fluid">
+                                </p>
+                                <p>
+                                    En el campo “Título” (Añadir título), agregamos el nombre de la nueva
+                                    suscripción.<br />
+                                    Luego podemos agregar una descripción del mismo.<br />
+                                    Nos movemos a la barra de opciones del lado derecho, donde tenemos 2 opciones
+                                    <strong>Suscripción</strong> y <strong>Bloque</strong>.<br />
+                                    Las opciones a configurar para la creación de la suscripción se encuentran en la
+                                    pestaña <strong>Suscripción</strong>.<br />
+                                    Las opciones básicas como <strong>Estado y Visibilidad e Imagen Principal</strong>
+                                    son propias de Wordpress, por lo que aquí veremos solo lo que pertenece a
+                                    Suscripciones.
+                                </p>
+                                <p>
+                                    <strong class="mb-3">Opciones y Detalles</strong><br />
+                                    Opciones y detalles es lo básico para la creación de una suscripción.<br />
+                                    <hr>
+                                    <strong>Precios: </strong>Podemos agregar uno (1) principal y varios alternativos,
+                                    siempre en número y puede conetener decimales de ser necesario. También podemos
+                                    activar la opción de recibir un monto definido por el usuario. Este monto se valida
+                                    para que no sea menor al minimo de la suscripción.<br />
+                                    <img src="img/img7.png" class="mt-3 mb-3 img-fluid"><br />
+                                    <strong>Periodo: </strong>Aquí definimos el periodo de suscripción puede ser en días
+                                    o meses. Por ejemplo, para 1 (un) mes, se puede usar 30 días o 1 mes. Si bien esto
+                                    se puede configurar según la necesidad del proyecto, siempre hay que tener en cuenta
+                                    que depende de los tiempos de suscripción o membresía que acepten los medios de pago
+                                    configurados.<br />
+                                    <img src="img/img8.png" class="mt-3 mb-3 img-fluid"><br />
+                                    <strong>Direcciones: </strong> Por último, la opción de <strong>¿Tiene un producto
+                                        físico con envío? </strong> nos permite activar un formulario para solicitar una
+                                    dirección al nuevo miembro, por si es necesario enviarle un producto físico.<br />
+                                    <img src="img/img9.png" class="mt-3 mb-3 img-fluid"><br />
+                                </p>
+                                <p>
+                                    <strgon class="mb-3">Mercadopago Plan ID</strgon>
+                                    En el caso de tener activo el medio de pago Mercadopago (Argentina), la siguiente
+                                    opción es para agregar el ID del plan creado en la cuenta de Mercadopago para
+                                    aceptar las suscripciones o membresías.<br />
+                                    <a href="#pagos-conf">Ver configuración de Pagos</a>
+                                </p>
+                                <p>
+                                    <a href="https://drive.google.com/file/d/1v5LF7ubyFa6xbHy5xbZgt_k0st48diuV/view?usp=sharing" class="btn btn-secondary" target="_blank">Ver Video</a>
+                                </p>
+                            </div>
+                            <hr class="mt-5 mb-5">
+                            <!-- membresias -->
+                            <div id="mem-conf" class="mt-3">
+                            <h4>Membresías</h4>
+                            <p>
+                                En el menú Suscripciones -> Membresías (nuevamente, según su idioma) encontramos todos
+                                los pedidos / suscripciones / ordenes creadas por los suscriptores.<br />
+                                <img src="img/img12.png" class="mt-3 mb-3 img-fluid"><br />
+                            </p>
+                            <p>
+                                La lista de Membresías se ve de la siguiente manera:<br />
+                                <img src="img/img13.png" class="mt-3 mb-3 img-fluid"><br />
+                                En esta lista encontramos los siguientes items: <br />
+                                <strong>Referencia:</strong> Un código alfanumérico que sirve de referencia del
+                                pago.<br />
+                                <strong>Usuario:</strong> Nombre del miembro / suscriptor.<br />
+                                <strong>Email: </strong> Email de miembre / suscriptor.<br />
+                                <strong>Estoda: </strong> Estado de la membresía, estos pueden ser (por defecto),
+                                Completado, Cancelado, En espera, Renovación, Error.<br />
+                                <strong>Método de pago: </strong> Método con el cual pago el miembre.<br />
+                                <strong>Suscripción: </strong> Nombre de la suscripción que eligió el miembro.
+                                <strong>Tipo: </strong> Puede ser Suscripción o Donación (todavía en desarrollo).
+                                <strong>Fecha de renovación: </strong> Fecha de la próxima renovación de la membresía.
+                            </p>
+                            <p>
+                                Ingresando a la membresía (haciendo click sobre la referencia), encontramos la siguiente
+                                pantalla:<br />
+                                <img src="img/mem1.png" class="mt-3 mb-3 img-fluid"><br />
+                                En esta pantalla encontramos primero los <strong>Datos de la membresía.</strong> En esta
+                                sección vamos a encontrar al información básica de la membresía creada.<br />
+                                <img src="img/mem2.png" class="mt-3 mb-3 img-fluid"><br />
+                                Debajo de esto encontramos los <strong>Datos del pago</strong>. Esta sección cambia
+                                según el medio de pago elegido, en este caso vemos una membresía creada con Débito
+                                Bancario. Estos datos cambian y se amplían según el medio de pago.<br />
+                                <img src="img/mem3.png" class="mt-3 mb-3 img-fluid"><br />
+                            </p>
+                            <p>
+                                En el menú de la derecha encontramos estas dos opciones para el manejo de
+                                membresías:<br />
+                                <img src="img/mem4.png" class="mt-3 mb-3 img-fluid"><br />
+                                <strong>Reenviar email:</strong> Esta opción nos permite re enviar el email de
+                                bienvenida al usuario en el caso de ser necesario, o reenviar el email con los datos de
+                                la membresía.<br />
+                                <strong>Cambiar estado: </strong> Como su nombre lo indica, con esta opción podemos
+                                pasar de un estado a otro la membresía, por ejemplo, en el caso de los pagos por Débito
+                                Bancario, de los cuales, el estado es "En Espera", se pueden validar pasandolos a
+                                "Completado". La opción permite que se le envíe un email con el estado nuevo al
+                                suscriptor.
+                            </p>
+                            <p>
+                                <a href="https://drive.google.com/file/d/1P19WFHHv6jKnQLIFe1Isd5Wpdz-_VRza/view?usp=sharing" class="btn btn-secondary" target="_blank"><i class="bi bi-file-earmark-play-fill"></i> Ver Video 1</a>
+                                <a href="https://drive.google.com/file/d/1V5J3Zfd42msL4efPrvjXPowl_75BpADk/view?usp=sharing" class="btn btn-secondary" target="_blank"><i class="bi bi-file-earmark-play-fill"></i> Ver Video 2</a>
+                            </p>
+                            </div>
+                            <hr class="mt-5 mb-5">
+                            <!-- estados -->
+                            <div id="email-conf">
+                                <h4>Emails y estados</h4>
+                                <p>
+                                    En el menu de <strong>Email y estados</strong> se encuentra la configuración para
+                                    los emails transaccionales que el sistema envía a los usuarios al suscribirse o dar
+                                    de baja una suscripción, así como los estados de las membresias.<br />
+                                    <img src="img/img16.png" class="mt-3 mb-3 img-fluid"><br />
+                                </p>
+                                <p>
+                                    Los estados por defecto son:<br />
+                                <ul>
+                                    <li><strong>Completed / Completado</strong><br />
+                                        Para todas las suscripciones en las cuales el proceso termino con exito.
+                                    </li>
+                                    <li>
+                                        <strong>On Hold / Espera</strong><br />
+                                        Para las suscripciones realizadas con medios de pago Offline, como Débito
+                                        Bancario.
+                                    </li>
+                                    <li>
+                                        <strong>Error</strong><br />
+                                        Para las suscripciones en las que hubo un error con el pago.
+                                    </li>
+                                    <li>
+                                        <strong>Cancel / Canceleda</strong><br />
+                                        Para las suscripciones que son canceladas por el miembro.
+                                    </li>
+                                </ul>
+                                Adicional, econtramos el estado <strong>Renewal / Renovación</strong> para todas las
+                                renovaciones automáticas.
+                                </p>
+                                <p>
+                                    Todos estos estados tienen un email asignado (menos Renovación). Haciendo click
+                                    sobre cada uno, podemos modificar el email enviado al miembro en cada caso:<br />
+                                    <img src="img/img17.png" class="mt-3 mb-3 img-fluid"><br />
+                                    Para la edición:<br />
+                                    <strong>Nombre estado</strong>: Es el nombre que veremos en la lista de
+                                    membresías.<br />
+                                    <strong>Color</strong>: El color con que veremos el estado en las lista de
+                                    membresías.<br />
+                                    <strong>Asunto</strong>: El asunto con que el email le llegará al suscriptor /
+                                    miembro.<br />
+                                    <strong>Cuerpo del email</strong>: El texto por defecto del email que le llegará al
+                                    suscriptor / miembro.<br />
+                                    En esta parte podemos usar "tags" para personalizar el Asunto y Cuerpo, las "tags"
+                                    son las siguientes:<br />
+                                <ul>
+                                    <li><strong>Para en nombre</strong> {{first_name}}</li>
+                                    <li><strong>Para el apellido</strong> {{last_name}}</li>
+                                    <li><strong>Para el email</strong> {{email}}</li>
+                                    <li><strong>Nombre de la suscripción</strong> {{subscription_name}}</li>
+                                </ul>
+                                </p>
+                                <p>
+                                    Adicional, podemos crear nuestros estados personalizados de ser necesario.<br />
+                                    <img src="img/img18.png" class="mt-3 mb-3 img-fluid"><br />
+                                    Este nuevo estado se puede utilizar en las membresías.
+                                </p>
+                                <p>
+                                    <a href="https://drive.google.com/drive/folders/1bzfgPDHa3ZuDFIj9K0k4dMuF1eY-ULtd?usp=sharing" class="btn btn-secondary" target="_blank"><i class="bi bi-file-earmark-play-fill"></i> Ver Video</a>
+                                </p>
+                            </div>
+                            <hr class="mt-5 mb-5">
+                            <!-- pagos -->
+                            <div id="pagos-conf" class="mt-3">
+                                <h4>Medios de Pago</h4>
+                                <p>La configuración de Medios de Pago se encuentra en <strong>Suscripciones > Opciones
+                                        de pago</strong>, allí encontramos la configuración para los dos medios de pago
+                                    por defecto del plugin, en esta zona también de deberían encontrar los medios de
+                                    pago personalizados en caso que haya<br />
+                                    <img src="img/img14.png" class="mt-3 mb-3 img-fluid"><br />.
+                                </p>
+                                <p>
+                                <h5>Mercadopago</h5>
+                                Los datos necesarios para la configuración de Mercadopago son: <strong>Public Key,
+                                    Access Token y Collector ID</strong>, estos datos se puede conseguir la pantalla de
+                                credenciales de Mercadopago <a
+                                    href="https://www.mercadopago.com.ar/developers/panel/credentials"
+                                    target="_blank">Ver credenciales</a>
+                                <br />
+                                La pantalla de credenciales se ve como esta:<br />
+                                <img src="img/credenciales.png" class="mt-3 mb-3 img-fluid">
+                                <br />
+                                El Collector ID es la última parte del token de nuestras credenciales:<br />
+                                <img src="img/collector.png" class="mt-3 mb-3 img-fluid">
+                                <br />
+                                Para crear una suscripción en su cuenta de Mercadopago, debe dirigirse a <a
+                                    href="https://www.mercadopago.com.ar/" target="_blank"></a> e ingresar a la cuenta.
+                                Dentro del menú de la izquierda debe ir a Suscripciones -> Crear nueva
+                                suscripción:<br />
+                                <img src="img/mp1.png" class="mt-3 mb-3 img-fluid"><br />
+                                Una vez creada la suscripción, en la url tendremos un parámetro llamado ID, parecido a
+                                esto se verá:<br />
+                                <pre>https://www.mercadopago.com.ar/subscription-plans/share?<strong style="color:red">id=2c93808479cfe0100179d7a8c6f907ce</strong></pre>
+                                <br />
+                                Copiamos la cadena que esta despues de <strong>id=</strong> y la pegamos en el siguiente
+                                campo:<br />
+                                <img src="img/img10.png" class="mt-3 mb-3 img-fluid"><br />
+                                Con esto configuramos el plan al cual las suscripciones se agregaran para tener todo
+                                ordenado y tener las funciones de cambio de precio activas. Es decir, cuando cambiemos
+                                el plan, se cambia el precio para todos nuestros suscriptores que pertenezcan a ese plan
+                                en particular.
+                                </p>
+
+                                <p class="fst-italic small bg-light p-3 rounded">
+                                    <strong>IMPORTANTE</strong><br />
+                                    Las suscripciones en Mercadopago deben ser creadas con la opción <strong>Prefiero
+                                        que el cliente lo defina</strong> en el precio.
+                                    <img src="img/mp2.png" class="mt-3 mb-3 img-fluid"><br />
+                                </p>
+                                <p>
+                                    Una vez configurado todo esto, tenemos que configurar las notificaciones IPN de
+                                    Mercadopago, ver la documentación <a
+                                        href="https://www.mercadopago.com.ar/developers/es/guides/notifications/ipn"
+                                        target="_blank">aquí</a>.<br />
+                                    Debe ingresar a <a
+                                        href="https://www.mercadopago.com.ar/developers/panel/notifications/ipn"
+                                        target="_blank">https://www.mercadopago.com.ar/developers/panel/notifications/ipn</a>
+                                    e ingresar la siguiente configuración.<br />
+                                    En <strong>URL del sitio en producción</strong> debe poner la URL de su sitio
+                                    apuntando a /notification, de esta manera: https://{urldelsitio}/notifications/,
+                                    recuerde que sin SSL (https) Mercadopago <strong>NO funciona</strong>. <br />
+                                    En la parte de <strong>Eventos</strong> seleccionar <strong>Pagos
+                                        (Payments)</strong>.<br />
+                                    La configuración debe quedar de la siguiente manera:<br />
+                                    <img src="img/img11.png" class="mt-3 mb-3 img-fluid"><br />
+                                </p>
+                                <p>
+                                <h5>Débito Bancario</h5>
+                                El débito bancario no tiene configuración en si mismo ya que el suscriptor agrega sus
+                                datos para que de forma manual se pueda agregar al débito bancario mensual. Este tipo de
+                                medio de pago es offline, por lo cual, si el suscriptor lo selecciona, para darle el
+                                alta final hay que hay hacerlo de manera manual, entrando a la membresía creada.<br />
+                                <img src="img/img15.png" class="mt-3 mb-3 img-fluid"><br />
+                                </p>
+                                <p>
+                                    <a href="https://drive.google.com/file/d/1ScmthO_BUvl1JsJcqoSuWIR6szycNnvd/view?usp=sharing" class="btn btn-secondary" target="_blank"><i class="bi bi-file-earmark-play-fill"></i> Ver Video</a>
+                                </p>
+                            </div>
+                            <hr class="mt-5 mb-5">
+                            <!-- opciones -->
+
+                            <div id="opciones-conf">
+                                <h4>Opciones (configuración global)</h4>
+                                <p>
+                                    En las opciones generales tenemos varios items, los primeros son una opción para
+                                    cargar (o no), Bootstrap para usar en el front:<br />
+                                    <img src="img/op1.png" class="mt-3 mb-3 img-fluid"><br />
+                                    Esta opción esta disponible de esta forma por si ya nuestro front tienen Bootstrap.
+                                    De esta forma, no se sobre escriben las clases o js.
+                                </p>
+                                <p>
+                                    Como segunda opción, tenemos el <strong>Contenido Privado</strong>. Esta opción nos
+                                    permite activar usar (o no) el contenido, privado, adicional, podemos elegir a que
+                                    tipo de post (Post type), se lo asignaremos, así como asignar un mensaje para
+                                    mostrar cuando el contenido es privado.<br />
+                                    <img src="img/op2.png" class="mt-3 mb-3 img-fluid"><br />
+                                </p>
+                                <p>
+                                    La siguiente opción nos permite elegir el rol por defecto para los sucriptores, por
+                                    defecto es <strong>Suscriptor</strong>.<br />
+                                    <img src="img/op3.png" class="mt-3 mb-3 img-fluid"><br />
+                                </p>
+                                <p>
+                                    La siguiente opción es para la <strong>configuración de moneda</strong>, aquí
+                                    podemos elegir el simbolo de la moneda y el prefijo a mostrar en la lista de
+                                    membresía, este prefijo es usado cuando se genera la referncia de la orden /
+                                    membresía.<br />
+                                    <img src="img/op4.png" class="mt-3 mb-3 img-fluid"><br />
+                                </p>
+                                <p>
+                                    La opción de <strong>Páginas</strong> es una de las más importantes. Al momento de
+                                    activar el plugin, este genera una serie de páginas necesarias para el
+                                    funcionamiento correcto.<br />
+                                <ul>
+                                    <li><strong>Página principal</strong><br />La página donde se mostraran las
+                                        suscripciones.</li>
+                                    <li><strong>Página de gracias</strong><br />Esta página esta al finalizar el pago
+                                    </li>
+                                    <li><strong>Ingresar</strong><br />Página de login</li>
+                                    <li><strong>Página de registro</strong>Formulario de registro</li>
+                                    <li><strong>Perfil</strong>Página donde se mostrará la información del usuario</li>
+                                    <li><strong>Página de Pago</strong>Página donde se muestran los medios de pago
+                                        activos</li>
+                                    <li><strong>Términos y condiciones</strong>Términos y condiciones del servicio</li>
+                                    <li><strong>Donaciones</strong>Mejora en proceso</li>
+                                </ul>
+                                Estas páginas se crean en el menú <strong>Páginas</strong> de forma automática, al
+                                desactivar el plugin, estas páginas se eliminan. Una vez creadas, podemos cambiar tanto
+                                el título como el slug de la página en cuestión por alguno de nuestra preferencia.<br />
+                                <img src="img/op5.png" class="mt-3 mb-3 img-fluid"><br />
+                                </p>
+                                <p>
+                                    La <strong>Opción de Emails</strong> se refiere a la configuración del lado del
+                                    administrador, es decir, el remitente por un lado y por otro los emails que recibirá
+                                    el administrador al momento de nuevo registro de usuario y email de bienvenida al
+                                    sitio.<br />
+                                    <img src="img/op6.png" class="mt-3 mb-3 img-fluid"><br />
+                                    Esto es editable por supuesto, y se pueden usar las siguiente "tags":<br />
+                                <ul>
+                                    <li><strong>Para en nombre</strong> {{first_name}}</li>
+                                    <li><strong>Para el apellido</strong> {{last_name}}</li>
+                                    <li><strong>Para el email</strong> {{email}}</li>
+                                    <li><strong>Nombre de la suscripción</strong> {{subscription_name}}</li>
+                                    <li><strong>Nombre del sitio</strong> {{site_name}}</li>
+                                </ul>
+                                </p>
+                                <p>
+                                    <a href="https://drive.google.com/file/d/1B8utIkxElfmOLO1U_g734GMv8_k5hzZI/view?usp=sharing" class="btn btn-secondary" target="_blank"><i class="bi bi-file-earmark-play-fill"></i> Ver Video</a>
+                                </p>
+                            </div>
+
+                        </div>
+                        <hr class="mt-5 mb-5">
+                        <!-- diseño -->
+                        <div id="disenio" class="doc-item mb-5">
+                            <h4>Diseño y plantillas</h4>
+                            <p>
+                                El plugin cuenta con un front ya creado que se encuentra en la carpeta:
+                            <pre>public/partials</pre><br />
+                            en la carpeta "public" también encontramos las carpetas "js" y "css", recomendamos no sobre
+                            escribir "js".
+                            </p>
+                            <p>
+                                Dentro de partials encontramos dos carpetas <strong>auth</strong> y
+                                <strong>pages</strong>, copiando estas dos carpetas a su theme activo puede sobre
+                                escribir las funciones y diseño del plugin. Se realiza de la siguiente manera:
+                            </p>
+                            <p>
+                                En el theme activo <strong>(wp-content/themes/your-theme)</strong> debe crear una
+                                carpeta llamada <strong>subscriptions-theme</strong> y dentro pegar las carpetas
+                                <strong>auth</strong> y <strong>pages</strong>. De esta forma, puede modificar los
+                                templates o plantillas del plugin. Recomendamos consevar nombres de campos o botones de
+                                formulario que cuenten con ellos, así como los ID de los mismos. En caso de modificar
+                                los mismos, deberá sobreescribir las funciones de js dentro de su theme.
+                            </p>
+                            <p>
+                                <strong>Estructura de carpetas</strong>
+                            <ul>
+                                <li>/root<br />
+                                    <ul>
+                                        <li>wp-content
+                                            <ul>
+                                                <li>themes
+                                                    <ul>
+                                                        <li>main-theme / child-theme
+                                                            <ul>
+                                                                <li>subscriptions-theme
+                                                                    <ul>
+                                                                        <li>pages</li>
+                                                                        <li>auth</li>
+                                                                    </ul>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            </p>
+
+                        </div>
+
+                        <hr class="mt-5 mb-5">
+                        <!-- options -->
+                        <div id="options">
+                            <h4>Plugin options</h4>
+                            <p>
+                                <small>Aclaración</small><br />
+                                El uso de esta opciones se pude hacer en otro plugin o en su theme directamente. Todas
+                                las opciones se llaman con:<br />
+                            <pre>get_option('nombre_opcion')</pre><br />
+                            Más información en el <a
+                                href="https://developer.wordpress.org/reference/functions/get_option/"
+                                target="_blank">Codex Wordpress</a>.
+                            </p>
+                            <p>
+                                <strong>Opciones re-utilizables</strong>
+                            <table class="table table-bordered">
+                                <tr>
+                                    <th>default_sucription_role</th>
+                                    <td>Obtener rol por defecto de los suscriptores</td>
+                                </tr>
+                                <tr>
+                                    <th>subscriptions_currency_symbol</th>
+                                    <td>Obtener simbolo de moneda</td>
+                                </tr>
+                                <tr>
+                                    <th>member_sku_prefix</th>
+                                    <td>Obtener prefijo de referencia de membresías</td>
+                                <tr>
+                                    <th>subscriptions_loop_page</th>
+                                    <td>Obtener ID de página de suscripcionse</td>
+                                </tr>
+                                <tr>
+                                    <th>subscriptions_thankyou</th>
+                                    <td>Obtener ID de página de gracias</td>
+                                </tr>
+                                <tr>
+                                    <th>subscriptions_login_register_page</th>
+                                    <td>Obtener ID de página de login</td>
+                                </tr>
+                                <tr>
+                                    <th>subscriptions_register_page</th>
+                                    <td>Obtener ID de página de registro</td>
+                                </tr>
+                                <tr>
+                                    <th>subscriptions_profile</th>
+                                    <td>Obtener ID de página de perfil</td>
+                                </tr>
+                                <tr>
+                                    <th>subscriptions_payment_page</th>
+                                    <td>Obtener ID de página de pago</td>
+                                </tr>
+                                <tr>
+                                    <th>subscriptions_terms_page</th>
+                                    <td>Obtener ID de página de Términos y Condiciones</td>
+                                </tr>
+                                <tr>
+                                    <th>subscriptions_email_sender</th>
+                                    <td>Email de remitente (administrador por defecto)</td>
+                                </tr>
+                                <tr>
+                                    <th></th>
+                                </tr>
+                            </table>
+                            </p>
+                        </div>
+                        <hr class="mt-5 mb-5">
+                        <!-- actions -->
+                        <div id="actions">
+                            <h4>Plugin actions</h4>
+                            <p>
+                                Lista de acciones que se puede usar para extender el plugin. Se llaman:<br />
+                            <pre>add_action('action_hook','callback_function',priority, arguments)</pre><br />
+                            Más información en <a href="https://developer.wordpress.org/reference/functions/add_action/"
+                                target="_blank">Codex Wordpress</a>
+                            </p>
+                            <p>
+                                <strong>Actions</strong>
+                            <table class="table table-bordered">
+                                <tr>
+                                    <th>before_subscriptions_loop</th>
+                                    <td>Antes del comienzo de la página de suscripciones</td>
+                                </tr>
+                                <tr>
+                                    <th>subscriptions_loop_footer</th>
+                                    <td>Footer de página de suscripciones</td>
+                                </tr>
+                                <tr>
+                                    <th>subscriptions_payment_page_header</th>
+                                    <td>Header página de pago</td>
+                                </tr>
+                                <tr>
+                                    <th>subscriptions_payment_page_message_before</th>
+                                    <td>Comienzo página de pago</td>
+                                </tr>
+                                <tr>
+                                    <th>subscriptions_payment_page_before_methods</th>
+                                    <td>Antes de mostrar los medios de pagos</td>
+                                </tr>
+                                <tr>
+                                    <th>payment_messages</th>
+                                    <td>Mostrar mensajes de los medios de pago</td>
+                                </tr>
+                                <tr>
+                                    <th>payment_getways</th>
+                                    <td>Gancho para mostrar los medios de pago</td>
+                                </tr>
+                                <tr>
+                                    <th>subscriptions_payment_page_after_methods</th>
+                                    <td>Después de los medios de pago</td>
+                                </tr>
+                                <tr>
+                                    <th>subscriptions_payment_page_message_after</th>
+                                    <td>Mensaje luego de los medios de pago</td>
+                                </tr>
+                                <tr>
+                                    <th>subscriptions_payment_page_footer</th>
+                                    <td>Pie de página de pagos</td>
+                                </tr>
+                                <tr>
+                                    <th>header_thankyou_page</th>
+                                    <td>Header página de gracias</td>
+                                </tr>
+                                <tr>
+                                    <th>messages_thankyou</th>
+                                    <td>Mensaje antes de mensaje de gracias.</td>
+                                </tr>
+                                <tr>
+                                    <th>body_thankyou_page</th>
+                                    <td>Mensaje extra en el body de página de pago</td>
+                                </tr>
+                                <tr>
+                                    <th>subscriptions_password_lost_before</th>
+                                    <td>Antes de formulario de recuperación de password</td>
+                                </tr>
+                                <tr>
+                                    <th>subscriptions_password_lost_errors</th>
+                                    <td>Mostrar errores extra en recuperación de password</td>
+                                </tr>
+                                <tr>
+                                    <th>subscriptions_password_lost_after</th>
+                                    <td>Pie de formulario de recueperar password</td>
+                                </tr>
+                                <tr>
+                                    <th>user_register_actions</th>
+                                    <td>Header de página de registro</td>
+                                </tr>
+                                <tr>
+                                    <th>subscriptions_before_register_form</th>
+                                    <td>Antes del formulario de registro</td>
+                                </tr>
+                                <tr>
+                                    <th>subscriptions_after_register_form</th>
+                                    <td>Después del formulario de registro</td>
+                                </tr>
+                                <tr>
+                                    <th>user_login_actions</th>
+                                    <td>Header página de login</td>
+                                </tr>
+                                <tr>
+                                    <th>subscriptions_before_login_form</th>
+                                    <td>Antes del formulario de login</td>
+                                </tr>
+                                <tr>
+                                    <th>subscriptions_after_login_form</th>
+                                    <td>Después del formulario de login</td>
+                                </tr>
+                            </table>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container text-center mt-5 pb-3">
+            <div class="row">
+                <div class="col-12">
+                    <strong>Tiempo Argentino 2021</strong>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

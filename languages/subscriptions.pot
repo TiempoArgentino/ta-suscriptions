@@ -1,0 +1,1426 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-23 07:10-0300\n"
+"PO-Revision-Date: 2021-04-23 07:10-0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Eazy Po 0.9.5.3\n"
+
+#: subscriptions.php:33
+msgid "Hi, you need install and activate User Panel Plugin"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:56
+#: admin/class-subscriptions-entities.php:58
+#: admin/class-subscriptions-entities.php:75
+#: admin/class-subscriptions-menu.php:53
+#: admin/class-subscriptions-metaboxes.php:196
+#: admin/class-subscriptions-options.php:38
+#: includes/class-subscriptions-activator.php:138
+#: public/class-subscriptions-user.php:16
+#: public/partials/pages/subscriptions-loop.php:11
+msgid "Subscriptions"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:57
+#: admin/class-subscriptions-entities.php:124
+#: admin/class-subscriptions-entities.php:394
+#: admin/class-subscriptions-entities.php:438
+#: admin/class-subscriptions-entities.php:453
+#: admin/class-subscriptions-entities.php:509
+#: admin/class-subscriptions-entities.php:862
+msgid "Subscription"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:59
+msgid "All Subscriptions"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:60
+msgid "New Subscription"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:61
+#: admin/class-subscriptions-entities.php:63
+msgid "New"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:62
+#: admin/partials/subscriptions-admin-emails-display.php:13
+#: public/partials/auth/user-panel.php:23
+msgid "Edit"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:64
+msgid "View"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:65
+msgid "View all"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:66
+msgid "Search Subscriptions"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:67
+msgid "Subscriptions not found"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:68
+msgid "Trash empty"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:69
+msgid "Feature Image"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:70
+msgid "Fix main image"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:71
+msgid "Remove main image"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:105
+msgid "Type:"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:106
+msgid "Period:"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:107
+msgid "Prices range:"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:122
+msgid " and custom price"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:124
+#: admin/class-subscriptions-entities.php:438
+#: admin/class-subscriptions-entities.php:666
+msgid "Donation"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:128
+msgid "Monthly"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:128
+msgid "Daily"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:145
+msgid "Options & Details"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:179
+#: admin/class-subscriptions-entities.php:718
+#: public/partials/pages/donations.php:51
+#: public/partials/pages/subscriptions-loop.php:74
+#: public/partials/pages/taxonomy-subscriptions_type.php:44
+msgid "Prices: "
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:179
+#: admin/class-subscriptions-entities.php:718
+msgid "add other price"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:195
+#: admin/class-subscriptions-entities.php:734
+msgid "Accept custom price?: "
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:202
+msgid "Subscription Period: "
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:206
+msgid "--select--"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:207
+#: includes/payment-getways/bank/bank.php:214
+#: includes/payment-getways/mp/mp.php:434
+msgid "Days"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:208
+#: includes/payment-getways/bank/bank.php:214
+#: includes/payment-getways/mp/mp.php:434
+msgid "Months"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:214
+msgid "Have a physical product with shipping? "
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:221
+msgid "Special subscription "
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:228
+msgid "Is it a monthly donation? "
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:232
+msgid "Discount (only percent number): "
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:235
+msgid "Only donations"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:315
+#: admin/class-subscriptions-entities.php:317
+#: admin/class-subscriptions-entities.php:321
+#: admin/class-subscriptions-menu.php:66
+msgid "Subscriptions Types"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:316
+msgid "Subscription Type"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:351
+#: admin/class-subscriptions-entities.php:353
+#: admin/class-subscriptions-entities.php:357
+#: admin/class-subscriptions-menu.php:107
+msgid "Memberships"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:352
+msgid "Membership"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:390
+msgid "Reference"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:391
+#: admin/class-subscriptions-entities.php:904
+msgid "User"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:392
+#: admin/class-subscriptions-entities.php:452
+#: admin/class-subscriptions-entities.php:811
+msgid "Status"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:393
+#: admin/class-subscriptions-entities.php:454
+#: admin/class-subscriptions-entities.php:640
+msgid "Payment Method"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:395
+#: admin/class-subscriptions-entities.php:455
+msgid "Type"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:396
+#: admin/class-subscriptions-entities.php:456
+msgid "Renewal Date"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:397
+#: admin/class-subscriptions-entities.php:487
+msgid "Date create"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:398
+msgid "Pay"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:426
+msgid "This is a error!!!!"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:457
+msgid "Cost"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:474
+msgid "Membership data"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:485
+msgid "General "
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:486
+msgid "Reference: "
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:488
+msgid "Order Status"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:497
+msgid "User data"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:498
+msgid "Full name: "
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:499
+#: public/class-subscriptions-proccess.php:483
+msgid "Email: "
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:510
+msgid "Name: "
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:511
+msgid "Period: "
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:512
+msgid "Pay: "
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:536
+msgid "Actions for order"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:545
+msgid "Re send emails"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:547
+msgid "Choose a option"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:548
+msgid "Re-send welcome email to suscriber."
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:549
+msgid "Re-send order email to suscriber."
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:551
+#: public/partials/pages/donations.php:114
+msgid "Send"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:560
+msgid "Change status"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:566
+msgid "Send Email Too?"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:567
+msgid "Update Status"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:627
+msgid "Payment Data"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:639
+msgid "Details "
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:645
+msgid "Not payment data found"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:665
+#: admin/class-subscriptions-entities.php:670
+#: admin/class-subscriptions-menu.php:79
+#: admin/class-subscriptions-options.php:416
+#: includes/class-subscriptions-activator.php:248
+msgid "Donations"
+msgstr ""
+
+#: admin/class-subscriptions-entities.php:699
+msgid "Prices"
+msgstr ""
+
+#: admin/class-subscriptions-menu.php:32 admin/class-subscriptions-menu.php:33
+#: admin/class-subscriptions-menu.php:52
+msgid "TAR Subscriptions"
+msgstr ""
+
+#: admin/class-subscriptions-menu.php:65
+msgid "TAR Subscriptions Types"
+msgstr ""
+
+#: admin/class-subscriptions-menu.php:78
+msgid "TAR Donations"
+msgstr ""
+
+#: admin/class-subscriptions-menu.php:91
+msgid "Subscriptions Options"
+msgstr ""
+
+#: admin/class-subscriptions-menu.php:92
+#: admin/class-subscriptions-menu.php:182
+msgid "Settings"
+msgstr ""
+
+#: admin/class-subscriptions-menu.php:106
+msgid "TAR Memberships"
+msgstr ""
+
+#: admin/class-subscriptions-menu.php:119
+msgid "TAR Payments"
+msgstr ""
+
+#: admin/class-subscriptions-menu.php:120
+msgid "Payment Settings"
+msgstr ""
+
+#: admin/class-subscriptions-menu.php:134
+msgid "TAR Emails and Status"
+msgstr ""
+
+#: admin/class-subscriptions-menu.php:135
+msgid "Emails and Status"
+msgstr ""
+
+#: admin/class-subscriptions-menu.php:189
+msgid "Load Bootstrap CSS 4.6? (only css file)"
+msgstr ""
+
+#: admin/class-subscriptions-menu.php:197
+msgid "Load Bootstrap JS 4.6? (only js file)"
+msgstr ""
+
+#: admin/class-subscriptions-menu.php:205
+msgid "Use the private content function?"
+msgstr ""
+
+#: admin/class-subscriptions-menu.php:213
+msgid "Protected post type"
+msgstr ""
+
+#: admin/class-subscriptions-menu.php:221
+msgid "Protected post message"
+msgstr ""
+
+#: admin/class-subscriptions-menu.php:259
+msgid "General Settings"
+msgstr ""
+
+#: admin/class-subscriptions-menu.php:260
+msgid "Some options, very usefuls"
+msgstr ""
+
+#: admin/class-subscriptions-menu.php:284
+#: admin/class-subscriptions-menu.php:293
+msgid ""
+"<a href=\"https://getbootstrap.com/docs/4.5/getting-started/introduction/\" "
+"target=\"_blank\">More info</a>"
+msgstr ""
+
+#: admin/class-subscriptions-menu.php:319
+msgid "Post types with options for privacy."
+msgstr ""
+
+#: admin/class-subscriptions-metaboxes.php:29
+msgid "Subscriber content"
+msgstr ""
+
+#: admin/class-subscriptions-metaboxes.php:58
+#: admin/class-subscriptions-metaboxes.php:115
+#: admin/class-subscriptions-metaboxes.php:142
+msgid "Is it content for subscribers only?"
+msgstr ""
+
+#: admin/class-subscriptions-metaboxes.php:60
+#: admin/class-subscriptions-metaboxes.php:121
+#: admin/class-subscriptions-metaboxes.php:149
+msgid "Authorized subscribers"
+msgstr ""
+
+#: admin/class-subscriptions-metaboxes.php:75
+msgid "You must create a subscription first"
+msgstr ""
+
+#: admin/class-subscriptions-metaboxes.php:204
+msgid "Current subscription"
+msgstr ""
+
+#: admin/class-subscriptions-metaboxes.php:210
+msgid "User is not a member"
+msgstr ""
+
+#: admin/class-subscriptions-metaboxes.php:220
+msgid "Subscribe to:"
+msgstr ""
+
+#: admin/class-subscriptions-metaboxes.php:225
+msgid "-- select --"
+msgstr ""
+
+#: admin/class-subscriptions-options.php:31
+msgid "Subscriptions and Donations permalinks options"
+msgstr ""
+
+#: admin/class-subscriptions-options.php:45
+msgid "Subscriptions Type"
+msgstr ""
+
+#: admin/class-subscriptions-options.php:70
+msgid ""
+"This option is used to change or translate the slugs of our subscriptions "
+"and donations, only names, not the structure."
+msgstr ""
+
+#: admin/class-subscriptions-options.php:74
+msgid "Subscriptions Base"
+msgstr ""
+
+#: admin/class-subscriptions-options.php:78
+msgid "Subscriptions Type Base"
+msgstr ""
+
+#: admin/class-subscriptions-options.php:113
+msgid "Default suscriptors role"
+msgstr ""
+
+#: admin/class-subscriptions-options.php:120
+#: admin/class-subscriptions-options.php:155
+msgid "Change default role"
+msgstr ""
+
+#: admin/class-subscriptions-options.php:151
+msgid ""
+"By default users are subscribers, you can change this here, note that you "
+"may have errors with old users."
+msgstr ""
+
+#: admin/class-subscriptions-options.php:178
+msgid "Currency and Memberships options"
+msgstr ""
+
+#: admin/class-subscriptions-options.php:185
+#: admin/class-subscriptions-options.php:220
+msgid "Currency Symbol"
+msgstr ""
+
+#: admin/class-subscriptions-options.php:192
+#: admin/class-subscriptions-options.php:224
+msgid "Membership order prefix"
+msgstr ""
+
+#: admin/class-subscriptions-options.php:216
+msgid "Currency symbol and memberships order prefix"
+msgstr ""
+
+#: admin/class-subscriptions-options.php:221
+msgid "ISO 4217 list: "
+msgstr ""
+
+#: admin/class-subscriptions-options.php:225
+msgid "Max length: 5 chars"
+msgstr ""
+
+#: admin/class-subscriptions-options.php:250
+msgid "Default pages"
+msgstr ""
+
+#: admin/class-subscriptions-options.php:384
+msgid ""
+"Define these pages so that Subscriptions know where to send their users to "
+"become members."
+msgstr ""
+
+#: admin/class-subscriptions-options.php:388
+msgid "Loop page"
+msgstr ""
+
+#: admin/class-subscriptions-options.php:389
+#: admin/class-subscriptions-options.php:393
+#: admin/class-subscriptions-options.php:397
+#: admin/class-subscriptions-options.php:401
+#: admin/class-subscriptions-options.php:405
+#: admin/class-subscriptions-options.php:409
+#: admin/class-subscriptions-options.php:413
+#: admin/class-subscriptions-options.php:417
+msgid "URL default: "
+msgstr ""
+
+#: admin/class-subscriptions-options.php:392
+msgid "Thank you page"
+msgstr ""
+
+#: admin/class-subscriptions-options.php:396
+#: public/partials/auth/suscription-login.php:27
+msgid "Login"
+msgstr ""
+
+#: admin/class-subscriptions-options.php:400
+msgid "Register page"
+msgstr ""
+
+#: admin/class-subscriptions-options.php:404
+msgid "User Profile"
+msgstr ""
+
+#: admin/class-subscriptions-options.php:408
+msgid "Payment Page"
+msgstr ""
+
+#: admin/class-subscriptions-options.php:412
+msgid "Terms and Coditions"
+msgstr ""
+
+#: admin/class-subscriptions-options.php:458
+msgid "Email Settings"
+msgstr ""
+
+#: admin/class-subscriptions-options.php:465
+msgid "Default email from"
+msgstr ""
+
+#: admin/class-subscriptions-options.php:480
+msgid "Add or update email sender."
+msgstr ""
+
+#: admin/class-subscriptions-options.php:484
+msgid "Default email Sender"
+msgstr ""
+
+#: admin/class-subscriptions-options.php:505
+msgid "Emails defaults"
+msgstr ""
+
+#: admin/class-subscriptions-options.php:512
+#: admin/class-subscriptions-options.php:526
+msgid "Email new user subject"
+msgstr ""
+
+#: admin/class-subscriptions-options.php:519
+#: admin/class-subscriptions-options.php:533
+msgid "Email new user body"
+msgstr ""
+
+#: admin/class-subscriptions-options.php:553
+#: emails/class-subscriptions-emails.php:148
+msgid "Hi administrator, you have a new member in {{site_name}}"
+msgstr ""
+
+#: admin/class-subscriptions-options.php:559
+#: emails/class-subscriptions-emails.php:149
+msgid "Hi administrator, you have a new member in your site {{site_name}}"
+msgstr ""
+
+#: admin/class-subscriptions-options.php:565
+msgid "Welcome Email."
+msgstr ""
+
+#: admin/class-subscriptions-options.php:569
+msgid "Email subject"
+msgstr ""
+
+#: admin/class-subscriptions-options.php:572
+#: admin/class-subscriptions-options.php:584
+#: admin/partials/subscriptions-admin-emails-display.php:76
+#: admin/partials/subscriptions-admin-emails-display.php:89
+msgid "Tags that you can use"
+msgstr ""
+
+#: admin/class-subscriptions-options.php:573
+#: admin/class-subscriptions-options.php:585
+#: admin/partials/subscriptions-admin-emails-display.php:77
+#: admin/partials/subscriptions-admin-emails-display.php:90
+msgid "Name"
+msgstr ""
+
+#: admin/class-subscriptions-options.php:574
+#: admin/class-subscriptions-options.php:586
+#: admin/partials/subscriptions-admin-emails-display.php:78
+#: admin/partials/subscriptions-admin-emails-display.php:91
+msgid "Last Name"
+msgstr ""
+
+#: admin/class-subscriptions-options.php:575
+#: admin/class-subscriptions-options.php:587
+#: admin/partials/subscriptions-admin-emails-display.php:79
+#: admin/partials/subscriptions-admin-emails-display.php:92
+#: public/partials/pages/donations.php:106
+#: public/partials/pages/donations.php:153
+#: public/partials/pages/subscriptions-loop.php:128
+#: public/partials/pages/taxonomy-subscriptions_type.php:99
+msgid "Email"
+msgstr ""
+
+#: admin/class-subscriptions-options.php:576
+#: admin/class-subscriptions-options.php:588
+#: admin/partials/subscriptions-admin-emails-display.php:80
+#: admin/partials/subscriptions-admin-emails-display.php:93
+msgid "Name of subscription"
+msgstr ""
+
+#: admin/class-subscriptions-options.php:581
+msgid "Email body"
+msgstr ""
+
+#: admin/class-subscriptions-options.php:594
+msgid "Admin new order email."
+msgstr ""
+
+#: admin/class-subscriptions-options.php:598
+msgid "Admin new order subject"
+msgstr ""
+
+#: admin/class-subscriptions-options.php:602
+msgid "Admin new order body"
+msgstr ""
+
+#: admin/partials/subscriptions-admin-emails-display.php:3
+msgid "Subscriptions emails and status settings"
+msgstr ""
+
+#: admin/partials/subscriptions-admin-emails-display.php:6
+msgid "Status and email"
+msgstr ""
+
+#: admin/partials/subscriptions-admin-emails-display.php:18
+#: admin/partials/subscriptions-admin-emails-display.php:20
+#: admin/partials/subscriptions-admin-emails-display.php:60
+#: admin/partials/subscriptions-admin-emails-display.php:62
+msgid "Status Name"
+msgstr ""
+
+#: admin/partials/subscriptions-admin-emails-display.php:24
+#: admin/partials/subscriptions-admin-emails-display.php:26
+#: admin/partials/subscriptions-admin-emails-display.php:66
+#: admin/partials/subscriptions-admin-emails-display.php:68
+msgid "Status Color"
+msgstr ""
+
+#: admin/partials/subscriptions-admin-emails-display.php:30
+#: admin/partials/subscriptions-admin-emails-display.php:32
+#: admin/partials/subscriptions-admin-emails-display.php:72
+#: admin/partials/subscriptions-admin-emails-display.php:74
+msgid "Email Subject"
+msgstr ""
+
+#: admin/partials/subscriptions-admin-emails-display.php:36
+#: admin/partials/subscriptions-admin-emails-display.php:38
+#: admin/partials/subscriptions-admin-emails-display.php:85
+#: admin/partials/subscriptions-admin-emails-display.php:87
+msgid "Email Body"
+msgstr ""
+
+#: admin/partials/subscriptions-admin-emails-display.php:46
+msgid "Edit Status"
+msgstr ""
+
+#: admin/partials/subscriptions-admin-emails-display.php:48
+msgid "DELETE"
+msgstr ""
+
+#: admin/partials/subscriptions-admin-emails-display.php:55
+msgid "New Status and email"
+msgstr ""
+
+#: admin/partials/subscriptions-admin-emails-display.php:100
+msgid "Add Status"
+msgstr ""
+
+#: admin/partials/subscriptions-admin-panel-display.php:2
+msgid "Scriptions"
+msgstr ""
+
+#: admin/partials/subscriptions-admin-payments-display.php:2
+msgid "Subscriptions payments settings"
+msgstr ""
+
+#: includes/class-subscriptions-activator.php:154
+#: public/partials/pages/donations.php:118
+msgid "Thank you"
+msgstr ""
+
+#: includes/class-subscriptions-activator.php:170
+msgid "Sign In"
+msgstr ""
+
+#: includes/class-subscriptions-activator.php:185
+msgid "Sign Up"
+msgstr ""
+
+#: includes/class-subscriptions-activator.php:200
+msgid "Lost Password"
+msgstr ""
+
+#: includes/class-subscriptions-activator.php:216
+msgid "Payment page"
+msgstr ""
+
+#: includes/class-subscriptions-activator.php:232
+msgid "Terms and conditions"
+msgstr ""
+
+#: includes/class-subscriptions-order-handler.php:128
+msgid "-- select a option --"
+msgstr ""
+
+#: includes/payment-getways/bank/bank.php:55
+#: includes/payment-getways/mp/mp.php:135
+msgid "Active?"
+msgstr ""
+
+#: includes/payment-getways/bank/bank.php:56
+#: includes/payment-getways/mp/mp.php:136
+msgid "Title"
+msgstr ""
+
+#: includes/payment-getways/bank/bank.php:58
+#: includes/payment-getways/mp/mp.php:138
+msgid "Add or change description"
+msgstr ""
+
+#: includes/payment-getways/bank/bank.php:60
+#: includes/payment-getways/mp/mp.php:147
+msgid "Submit"
+msgstr ""
+
+#: includes/payment-getways/bank/bank.php:102
+msgid "ID Type"
+msgstr ""
+
+#: includes/payment-getways/bank/bank.php:104
+msgid "type"
+msgstr ""
+
+#: includes/payment-getways/bank/bank.php:105
+msgid "DNI"
+msgstr ""
+
+#: includes/payment-getways/bank/bank.php:106
+msgid "CI"
+msgstr ""
+
+#: includes/payment-getways/bank/bank.php:107
+msgid "LC"
+msgstr ""
+
+#: includes/payment-getways/bank/bank.php:108
+msgid "LE"
+msgstr ""
+
+#: includes/payment-getways/bank/bank.php:109
+msgid "Other"
+msgstr ""
+
+#: includes/payment-getways/bank/bank.php:113
+msgid "ID Number"
+msgstr ""
+
+#: includes/payment-getways/bank/bank.php:117
+msgid "CBU / Alias"
+msgstr ""
+
+#: includes/payment-getways/bank/bank.php:121
+msgid "CUIT / CUIL"
+msgstr ""
+
+#: includes/payment-getways/bank/bank.php:126
+msgid "I accept terms and conditions"
+msgstr ""
+
+#: includes/payment-getways/bank/bank.php:131
+msgid "Send data"
+msgstr ""
+
+#: includes/payment-getways/bank/bank.php:149
+#: public/class-subscriptions-proccess.php:495
+msgid "All field are required"
+msgstr ""
+
+#: includes/payment-getways/bank/bank.php:187
+#: includes/payment-getways/mp/mp.php:408
+msgid "An error occurred in order creation"
+msgstr ""
+
+#: includes/payment-getways/bank/bank.php:271
+#: includes/payment-getways/mp/mp.php:660
+msgid "Your membership is now cancel"
+msgstr ""
+
+#: includes/payment-getways/bank/bank.php:275
+#: includes/payment-getways/mp/mp.php:664
+msgid "Error in transaction"
+msgstr ""
+
+#: includes/payment-getways/mp/mp.php:79
+msgid "Mercadopago Plan ID"
+msgstr ""
+
+#: includes/payment-getways/mp/mp.php:96
+msgid "Plan ID"
+msgstr ""
+
+#: includes/payment-getways/mp/mp.php:140
+msgid "Mercadopago Public key"
+msgstr ""
+
+#: includes/payment-getways/mp/mp.php:142
+msgid "Mercadopago Access Token"
+msgstr ""
+
+#: includes/payment-getways/mp/mp.php:144
+msgid "Collector ID"
+msgstr ""
+
+#: includes/payment-getways/mp/mp.php:146
+msgid "Payment Log"
+msgstr ""
+
+#: includes/payment-getways/mp/mp.php:252
+msgid "Pay with Card"
+msgstr ""
+
+#: includes/payment-getways/mp/mp.php:738
+msgid "Your membership is edit"
+msgstr ""
+
+#: public/class-donations-process.php:55
+#: public/class-subscriptions-proccess.php:87
+msgid "Checking..."
+msgstr ""
+
+#: public/class-donations-process.php:93
+#: public/class-donations-process.php:142
+#: public/class-donations-process.php:189
+#: public/class-subscriptions-proccess.php:128
+#: public/class-subscriptions-proccess.php:181
+#: public/class-subscriptions-proccess.php:227
+#: public/class-subscriptions-proccess.php:287
+#: public/class-subscriptions-proccess.php:364
+#: public/class-subscriptions-proccess.php:419
+#: public/class-subscriptions-proccess.php:470
+msgid "So sorry, wp_nonce is broken!"
+msgstr ""
+
+#: public/class-subscriptions-forms-auth.php:71
+msgid "All Fields are required."
+msgstr ""
+
+#: public/class-subscriptions-forms-auth.php:77
+#: public/class-subscriptions-proccess.php:301
+msgid "Password length must be greater than 6 characters."
+msgstr ""
+
+#: public/class-subscriptions-forms-auth.php:83
+#: public/class-subscriptions-proccess.php:306
+msgid "Email is not valid"
+msgstr ""
+
+#: public/class-subscriptions-forms-auth.php:89
+#: public/class-subscriptions-proccess.php:311
+msgid "Email Already in use"
+msgstr ""
+
+#: public/class-subscriptions-forms-auth.php:95
+msgid "The passwords must be equals 2."
+msgstr ""
+
+#: public/class-subscriptions-forms-auth.php:205
+msgid "You must be logged to access to this section"
+msgstr ""
+
+#: public/class-subscriptions-forms-auth.php:247
+msgid "You must provide a email"
+msgstr ""
+
+#: public/class-subscriptions-forms-auth.php:251
+msgid "This email is not in our database"
+msgstr ""
+
+#: public/class-subscriptions-forms-auth.php:263
+msgid "Check your email for a link to reset your password."
+msgstr ""
+
+#: public/class-subscriptions-front-functions.php:26
+msgid "Go to login page"
+msgstr ""
+
+#: public/class-subscriptions-proccess.php:296
+msgid "All fields are required"
+msgstr ""
+
+#: public/class-subscriptions-proccess.php:368
+msgid "There are empty field!"
+msgstr ""
+
+#: public/class-subscriptions-proccess.php:440
+msgid "Error in discount!"
+msgstr ""
+
+#: public/class-subscriptions-proccess.php:482
+msgid "Name and Lastname: "
+msgstr ""
+
+#: public/class-subscriptions-proccess.php:484
+#: public/partials/pages/donations.php:111
+msgid "Message"
+msgstr ""
+
+#: public/class-subscriptions-proccess.php:486
+msgid "Discount request in Support us"
+msgstr ""
+
+#: public/class-subscriptions-proccess.php:491
+msgid "Error sending email"
+msgstr ""
+
+#: public/partials/auth/lost-password.php:8
+msgid "Lost password Form"
+msgstr ""
+
+#: public/partials/auth/lost-password.php:9
+msgid ""
+"Enter your email address and we'll send you a link you can use to pick a new "
+"password."
+msgstr ""
+
+#: public/partials/auth/lost-password.php:15
+msgid "Enter your email"
+msgstr ""
+
+#: public/partials/auth/lost-password.php:18
+msgid "Reset Password"
+msgstr ""
+
+#: public/partials/auth/lost-password.php:25
+#, php-format
+msgid "Hi %s, you are already logged in."
+msgstr ""
+
+#: public/partials/auth/subscriptions-register.php:18
+msgid "Become a member"
+msgstr ""
+
+#: public/partials/auth/subscriptions-register.php:21
+#: public/partials/pages/donations.php:176
+#: public/partials/pages/subscriptions-loop.php:152
+#: public/partials/pages/taxonomy-subscriptions_type.php:122
+msgid "Firstname *"
+msgstr ""
+
+#: public/partials/auth/subscriptions-register.php:25
+#: public/partials/pages/donations.php:180
+#: public/partials/pages/subscriptions-loop.php:156
+#: public/partials/pages/taxonomy-subscriptions_type.php:126
+msgid "Lastname *"
+msgstr ""
+
+#: public/partials/auth/subscriptions-register.php:29
+#: public/partials/pages/donations.php:184
+#: public/partials/pages/subscriptions-loop.php:160
+#: public/partials/pages/taxonomy-subscriptions_type.php:130
+msgid "Email *"
+msgstr ""
+
+#: public/partials/auth/subscriptions-register.php:33
+#: public/partials/pages/donations.php:188
+#: public/partials/pages/subscriptions-loop.php:164
+#: public/partials/pages/taxonomy-subscriptions_type.php:134
+msgid "Password *"
+msgstr ""
+
+#: public/partials/auth/subscriptions-register.php:37
+msgid "Repeat Password *"
+msgstr ""
+
+#: public/partials/auth/subscriptions-register.php:42
+#: public/partials/pages/donations.php:169
+#: public/partials/pages/donations.php:193
+#: public/partials/pages/subscriptions-loop.php:145
+#: public/partials/pages/subscriptions-loop.php:169
+#: public/partials/pages/taxonomy-subscriptions_type.php:115
+#: public/partials/pages/taxonomy-subscriptions_type.php:139
+msgid "Sign up"
+msgstr ""
+
+#: public/partials/auth/suscription-login.php:16
+msgid "Login in your account"
+msgstr ""
+
+#: public/partials/auth/suscription-login.php:19
+#: public/partials/auth/suscription-login.php:20
+msgid "Your email"
+msgstr ""
+
+#: public/partials/auth/suscription-login.php:23
+#: public/partials/auth/suscription-login.php:24
+msgid "Your password"
+msgstr ""
+
+#: public/partials/auth/user-panel.php:7
+msgid "You are not a member"
+msgstr ""
+
+#: public/partials/auth/user-panel.php:8
+#: public/partials/auth/user-panel.php:36
+msgid "become a member"
+msgstr ""
+
+#: public/partials/auth/user-panel.php:13
+msgid "You are subscribe to:"
+msgstr ""
+
+#: public/partials/auth/user-panel.php:17
+msgid "Your contribution:"
+msgstr ""
+
+#: public/partials/auth/user-panel.php:19
+msgid "Your billing period: "
+msgstr ""
+
+#: public/partials/auth/user-panel.php:20
+msgid "and you pay: "
+msgstr ""
+
+#: public/partials/auth/user-panel.php:30
+msgid "Cancel membership"
+msgstr ""
+
+#: public/partials/auth/user-panel.php:35
+msgid "Convert your contribution in a subscription"
+msgstr ""
+
+#: public/partials/auth/user-panel.php:46
+msgid "Edit your subscription"
+msgstr ""
+
+#: public/partials/auth/user-panel.php:47
+msgid "Remember, the minimun for this transaction is: "
+msgstr ""
+
+#: public/partials/auth/user-panel.php:52
+msgid "Change my membership"
+msgstr ""
+
+#: public/partials/auth/user-panel.php:56
+msgid "Add / Quit paper"
+msgstr ""
+
+#: public/partials/auth/user-panel.php:61
+msgid "Select a price: "
+msgstr ""
+
+#: public/partials/auth/user-panel.php:69
+msgid "or"
+msgstr ""
+
+#: public/partials/auth/user-panel.php:71
+msgid "Add your price"
+msgstr ""
+
+#: public/partials/auth/user-panel.php:72
+msgid "Price"
+msgstr ""
+
+#: public/partials/auth/user-panel.php:82
+msgid "Edit membership"
+msgstr ""
+
+#: public/partials/auth/user-panel.php:83
+msgid "Cancel"
+msgstr ""
+
+#: public/partials/pages/donations.php:11
+msgid "Support us"
+msgstr ""
+
+#: public/partials/pages/donations.php:62
+#: public/partials/pages/subscriptions-loop.php:85
+#: public/partials/pages/suscription-post.php:38
+#: public/partials/pages/taxonomy-subscriptions_type.php:55
+msgid "I would like to contribute more money"
+msgstr ""
+
+#: public/partials/pages/donations.php:68
+#: public/partials/pages/subscriptions-loop.php:91
+#: public/partials/pages/suscription-post.php:45
+#: public/partials/pages/taxonomy-subscriptions_type.php:62
+msgid "associate"
+msgstr ""
+
+#: public/partials/pages/donations.php:73
+msgid "I need a discount"
+msgstr ""
+
+#: public/partials/pages/donations.php:79
+#, php-format
+msgid ""
+"From %s we want to offer you the possibility of supporting our environment "
+"by offering you a %s discount on your contribution"
+msgstr ""
+
+#: public/partials/pages/donations.php:81
+msgid "Before: "
+msgstr ""
+
+#: public/partials/pages/donations.php:84
+msgid "Now: "
+msgstr ""
+
+#: public/partials/pages/donations.php:86
+#: public/partials/pages/donations.php:136
+#: public/partials/pages/subscriptions-loop.php:111
+#: public/partials/pages/taxonomy-subscriptions_type.php:82
+msgid "Next"
+msgstr ""
+
+#: public/partials/pages/donations.php:89
+msgid "Si necesitás un descuento mayor"
+msgstr ""
+
+#: public/partials/pages/donations.php:90
+msgid "Click here"
+msgstr ""
+
+#: public/partials/pages/donations.php:98
+msgid "We want to know your situation:"
+msgstr ""
+
+#: public/partials/pages/donations.php:99
+msgid ""
+"Tell us your name, your e-mail and why you think you need this discount:"
+msgstr ""
+
+#: public/partials/pages/donations.php:102
+msgid "Name and Lastname"
+msgstr ""
+
+#: public/partials/pages/donations.php:109
+msgid "Write us a message:"
+msgstr ""
+
+#: public/partials/pages/donations.php:119
+msgid ""
+"Very soon someone from our site will write to you by e-mail. In the meantime "
+"you can continue reading our site."
+msgstr ""
+
+#: public/partials/pages/donations.php:121
+msgid "go to site"
+msgstr ""
+
+#: public/partials/pages/donations.php:128
+#: public/partials/pages/subscriptions-loop.php:103
+#: public/partials/pages/taxonomy-subscriptions_type.php:74
+msgid "How much do you want to contribute?"
+msgstr ""
+
+#: public/partials/pages/donations.php:129
+#: public/partials/pages/subscriptions-loop.php:104
+#: public/partials/pages/taxonomy-subscriptions_type.php:75
+msgid "Enter the amount you want."
+msgstr ""
+
+#: public/partials/pages/donations.php:129
+#: public/partials/pages/subscriptions-loop.php:104
+#: public/partials/pages/taxonomy-subscriptions_type.php:75
+msgid "Min amount for this subscriptions is: "
+msgstr ""
+
+#: public/partials/pages/donations.php:133
+#: public/partials/pages/subscriptions-loop.php:108
+#: public/partials/pages/taxonomy-subscriptions_type.php:79
+msgid "The minimum amount cannot be less than "
+msgstr ""
+
+#: public/partials/pages/donations.php:137
+#: public/partials/pages/donations.php:162
+#: public/partials/pages/donations.php:194
+#: public/partials/pages/subscriptions-loop.php:112
+#: public/partials/pages/subscriptions-loop.php:138
+#: public/partials/pages/subscriptions-loop.php:170
+#: public/partials/pages/taxonomy-subscriptions_type.php:83
+#: public/partials/pages/taxonomy-subscriptions_type.php:108
+#: public/partials/pages/taxonomy-subscriptions_type.php:140
+msgid "Change selection"
+msgstr ""
+
+#: public/partials/pages/donations.php:145
+#: public/partials/pages/subscriptions-loop.php:120
+#: public/partials/pages/taxonomy-subscriptions_type.php:91
+msgid "Login to your account or create one to finish associating with"
+msgstr ""
+
+#: public/partials/pages/donations.php:146
+#: public/partials/pages/donations.php:161
+#: public/partials/pages/subscriptions-loop.php:121
+#: public/partials/pages/subscriptions-loop.php:136
+#: public/partials/pages/taxonomy-subscriptions_type.php:92
+#: public/partials/pages/taxonomy-subscriptions_type.php:107
+msgid "Sign in"
+msgstr ""
+
+#: public/partials/pages/donations.php:157
+#: public/partials/pages/subscriptions-loop.php:132
+#: public/partials/pages/taxonomy-subscriptions_type.php:103
+msgid "Password"
+msgstr ""
+
+#: public/partials/pages/donations.php:168
+#: public/partials/pages/subscriptions-loop.php:144
+#: public/partials/pages/taxonomy-subscriptions_type.php:114
+msgid "Don't have an account?"
+msgstr ""
+
+#: public/partials/pages/donations.php:203
+#: public/partials/pages/subscriptions-loop.php:179
+#: public/partials/pages/taxonomy-subscriptions_type.php:149
+msgid "Welcome again"
+msgstr ""
+
+#: public/partials/pages/donations.php:204
+#: public/partials/pages/subscriptions-loop.php:180
+#: public/partials/pages/taxonomy-subscriptions_type.php:150
+msgid "Continue to payment page"
+msgstr ""
+
+#: public/partials/pages/donations.php:210
+#: public/partials/pages/subscriptions-loop.php:186
+#: public/partials/pages/taxonomy-subscriptions_type.php:156
+msgid "Sorry, no subscriptions matched your criteria."
+msgstr ""
+
+#: public/partials/pages/subscriptions-loop.php:137
+msgid "Password Lost?"
+msgstr ""
+
+#: public/partials/pages/subscriptions-loop.php:191
+#, php-format
+msgid ""
+"Hi %s, you are already a subscriber, if you want to modify your "
+"subscription, you can do it from your profile."
+msgstr ""
+
+#: public/partials/pages/subscriptions-payment-page.php:17
+#: public/partials/pages/subscriptions-thankyou.php:16
+msgid ""
+"You have to select a subscription and be logged in to make a payment. Please "
+msgstr ""
+
+#: public/partials/pages/subscriptions-payment-page.php:17
+#: public/partials/pages/subscriptions-thankyou.php:16
+msgid "click here"
+msgstr ""
+
+#: public/partials/pages/subscriptions-payment-page.php:27
+#, php-format
+msgid "Hi %s we need your address."
+msgstr ""
+
+#: public/partials/pages/subscriptions-payment-page.php:31
+msgid "State"
+msgstr ""
+
+#: public/partials/pages/subscriptions-payment-page.php:35
+msgid "City"
+msgstr ""
+
+#: public/partials/pages/subscriptions-payment-page.php:40
+msgid "Address"
+msgstr ""
+
+#: public/partials/pages/subscriptions-payment-page.php:42
+msgid "Street address, P.O. box, company name, c/o"
+msgstr ""
+
+#: public/partials/pages/subscriptions-payment-page.php:45
+msgid "Street Nº"
+msgstr ""
+
+#: public/partials/pages/subscriptions-payment-page.php:50
+msgid "Floor"
+msgstr ""
+
+#: public/partials/pages/subscriptions-payment-page.php:54
+msgid "Apt"
+msgstr ""
+
+#: public/partials/pages/subscriptions-payment-page.php:58
+msgid "ZIP"
+msgstr ""
+
+#: public/partials/pages/subscriptions-payment-page.php:62
+msgid "Between streets"
+msgstr ""
+
+#: public/partials/pages/subscriptions-payment-page.php:66
+msgid "Observations"
+msgstr ""
+
+#: public/partials/pages/subscriptions-payment-page.php:70
+msgid "Add Address"
+msgstr ""
+
+#: public/partials/pages/subscriptions-payment-page.php:77
+msgid "Payment"
+msgstr ""
+
+#: public/partials/pages/subscriptions-payment-page.php:79
+#, php-format
+msgid "Thanks %s for suporting "
+msgstr ""
+
+#: public/partials/pages/subscriptions-payment-page.php:80
+msgid "To continue the process select a payment method"
+msgstr ""
+
+#: public/partials/pages/subscriptions-thankyou.php:24
+msgid "Thank you for you purchase mate..."
+msgstr ""
+
+#: public/partials/pages/subscriptions-thankyou.php:26
+#, php-format
+msgid "Thank you %s for chose us"
+msgstr ""
+
+#: public/partials/pages/subscriptions-thankyou.php:27
+msgid "A self-managed environment is possible thanks to people like you!"
+msgstr ""
+
+#: public/partials/pages/subscriptions-thankyou.php:29
+msgid "You can continue browsing the site"
+msgstr ""
+
+#: public/partials/pages/subscriptions-thankyou.php:30
+msgid "Go to site"
+msgstr ""
+
+#: public/partials/pages/subscriptions-thankyou.php:30
+msgid "Go to your profile"
+msgstr ""
+
+#: public/partials/pages/suscription-post.php:22
+msgid "Price/s"
+msgstr ""
+
+#: public/partials/pages/taxonomy-subscriptions_type.php:60
+msgid "Read More"
+msgstr ""

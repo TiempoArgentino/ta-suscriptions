@@ -1,0 +1,114 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ .prices-list{
+     padding-bottom: 2%;
+ }
+ .prices-list .price{
+     display: inline-block;
+     border:1px solid lightgray;
+     padding: 1%;
+     border-radius: 5px;
+     margin: .3%;
+     cursor: pointer;
+ }
+ .price.selected{
+     background-color: yellowgreen;
+     color: black;
+     font-weight: bold;
+ }
+ .custom-price-button {
+    display: block;
+    padding: 3% 0;
+}
+#custom-price-row{
+    display:none;
+}
+ .read-more-button{
+     margin-top: .5rem;
+ }
+ .buttons-container a, .buttons-container .button-suscribe{
+     flex-basis: 50%;
+     max-width: 48%;
+ }
+ .price-single {
+    display: inline-block;
+    border:1px solid lightgray;
+    padding: 1%;
+    border-radius: 5px;
+    margin: .3%;
+    cursor: pointer;
+}
+.cancel-custom-price{
+    cursor: pointer;
+    color: blue;
+}
+#login-form-loop, #register-form-loop, #login-register-loop{
+    display: none;
+}
+ul.payment-methods {
+    padding-left: 0;
+}
+ul.payment-methods li{
+    list-style: none;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+}
+.payment-panel-front .payment-body {
+    display: none;
+}
+.payment-body label{
+    display: block;
+    text-align: left;
+}
+.payment-body .form-check label {
+    text-align: center;
+}
+.payment-select{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.payment-title{
+    cursor: pointer;
+}
+.payment-active{
+    color:white;
+    background-color: darkgray;
+    width: 100%;
+}
+.dates {
+    display: flex;
+    justify-content: space-between;
+}
+.small-input {
+    flex-basis: calc(33% - 5px)
+}
+
+#user-donations-data{
+    display: none;
+}
+#membership-edit-donations,#membership-edit-subscriptions{
+    display: none;
+}
+#physical{
+    display: none;
+}
+#cancel-form-membership{
+    display: inline-block;
+}
+span.price-select {
+    cursor: pointer;
+    padding: 5px 8px;
+    border: 1px solid lightblue;
+}
+.price-before{
+    text-decoration: line-through;
+}
+#discount-data, #contact-form, #contact-thankyou{
+    display: none;
+}

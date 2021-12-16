@@ -1,0 +1,370 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.admin-subscriptions-container {
+  padding: 1% 2% 1% 0%;
+}
+small.help-suscription {
+  padding: 0.5% 0 0 0;
+  display: block;
+}
+.panel-wrap.subscriptions {
+  display: flex;
+  height: auto;
+}
+.panel-column {
+  width: 32%;
+  padding: 0 2% 0 0;
+  float: left;
+}
+.field-orders {
+  display: block;
+  padding: 2% 3%;
+  border: 1px solid lightgray;
+  margin-bottom: 1%;
+  border-radius: 5px;
+}
+.field-orders .status_order {
+  padding: 5px;
+  line-height: 1.2em;
+}
+.status_order {
+  display: inline-flex;
+  border-radius: 4px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  margin: -0.25em 0;
+  cursor: inherit !important;
+  white-space: nowrap;
+  max-width: 100%;
+  line-height: 2.5em;
+  padding: 1px 18px;
+  color: white;
+}
+.completed {
+  background-color: lightgreen;
+  color: white;
+}
+.hold {
+  background-color: yellow;
+  color: black;
+}
+.cancel {
+  background-color: red;
+  color: white;
+}
+.post-type-memberships input#title,
+.post-type-memberships #edit-slug-box {
+  display: none !important;
+}
+select#resend-email,
+select#change_status {
+  margin-bottom: 1% !important;
+  width: 100%;
+}
+.check-action {
+  display: block;
+  width: 100%;
+  padding: 4% 0;
+}
+.button-block-subscriptions,
+#button-status-subscriptions {
+  text-align: center;
+  width: 100%;
+  display: block;
+  margin: 1% 0;
+}
+/** payment */
+.container-payment-settings {
+  display: block;
+}
+.container-payment-settings .panel {
+  padding: 0 1%;
+  background: white;
+  margin-bottom: 0.5%;
+  display: block;
+}
+.panel-header {
+  text-transform: uppercase;
+  padding-top: 0.3%;
+  padding-bottom: 0.3%;
+  cursor: pointer;
+}
+.panel-form {
+  display: none;
+  padding-bottom: 1%;
+}
+.container-payment-settings .panel label {
+  padding-bottom: 5px;
+  display: block;
+}
+.payment_input_field,
+.payment_input_textarea {
+  margin-bottom: 1%;
+  width: 100%;
+}
+.edit-status {
+  background: white;
+}
+.edit-status h4 {
+  background: white;
+  padding: 1% 1%;
+  cursor: pointer;
+}
+form.form-edit-status {
+  padding: 0% 1%;
+  background: white;
+  display: none;
+}
+.open-form-status span {
+  float: right;
+  color: #d21ae8;
+}
+.show-discount {
+  display: none;
+}
+
+.data_user_status {
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  width: 50px;
+  display: block;
+  border-bottom: 1px solid gray;
+  padding: 1% 0;
+}
+.data_user_status.yes {
+  background: #43aa8b;
+}
+.data_user_status.no {
+  background: red;
+}
+.data_user_status.info {
+  background: #3b5998;
+}
+.search-user {
+  padding-bottom: 1%;
+  text-align: right;
+}
+div#view-user-info {
+  margin-bottom: 0.5rem;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border-bottom: 1px solid lightgrey;
+  display: none;
+}
+div#view-user-info.user-error {
+  background-color: red;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+div#view-user-info.user-success {
+  background-color: #43aa8b;
+}
+.users-table {
+  text-align: left;
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.users-table thead tr th {
+  border-bottom: 1px solid white;
+}
+form#form-export {
+  text-align: center;
+}
+button#export-button {
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+  border: 1px solid green;
+  background: white;
+  color: green;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.close-user-info {
+  text-align: right;
+  width: 100%;
+  display: block;
+  height: auto;
+}
+
+span#loading-spinner img {
+  max-width: 50px;
+}
+.user-bag {
+  display: inline-block;
+  padding: 0.5% 4%;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+}
+.user-bag.user-active {
+  background-color: green;
+}
+.user-bag.user-no-active {
+  background-color: red;
+}
+body.post-type-memberships div#postbox-container-2 {
+  margin-top: 3% !important;
+}
+body.post-type-memberships div#post-body-content {
+  display: none;
+}
+/** membersias */
+div#modal-membership-new {
+  position: absolute;
+  z-index: 1500000;
+  background: rgb(255 255 255 / 90%);
+  width: 94%;
+  height: 100%;
+  left: 0;
+  top: 0px;
+  padding: 2% 2%;
+  border-radius: 1%;
+  display: none;
+}
+#membership-close-form {
+  background-color: black;
+  font-size: 2rem;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  float: right;
+}
+.step-membership {
+  display: block;
+  width: 100%;
+}
+.memberships-fields {
+  display: block;
+  border: 1px solid lightgray;
+  margin-bottom: 1%;
+  width: 100%;
+  max-width: 100% !important;
+  padding: 0.5% !important;
+}
+.memberships-fields-middle {
+  display: inline-block;
+  border: 1px solid lightgray;
+  margin-bottom: 1%;
+  width: 80%;
+  max-width: 100% !important;
+  padding: 0.5% !important;
+}
+#modal-membership-new .button {
+  min-width: 10rem;
+  padding: 0.5%;
+  font-weight: bold;
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+.loading-membership,
+.loading-user {
+  background-image: url("../img/loading.gif");
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  background-position: center;
+}
+.spinner-1 {
+  display: none;
+}
+.content-updates label {
+  display: block;
+  padding: 1% 0;
+}
+select#subscription_id {
+  width: 300px;
+  padding: 0.3% 0.5%;
+}
+button#sincronize_prices {
+  width: 300px;
+  margin-top: 0.5%;
+  padding: 0.7%;
+  background: #16a1dc;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+}
+.memberships-field-container {
+  margin-top: 1%;
+}
+li.edit-mbs {
+  background: #2271b1;
+  border-radius: 5px
+}
+li.edit-mbs a {
+  color: white;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+/** steps **/
+#select-subscription,
+#search-user-member,
+#subscription-exists,
+#search-user-member-results,
+#subscription-not-exists,
+#cancel-search-user,
+#edit-membership,
+#edit-msg-membership,
+#edit-membership-form,
+#edit-membership-price,
+#edit-membership-payment,
+#custom-price-div,
+#edit-finish,
+#msg-finish-edit,
+#bank-data,
+#mp-data,
+#show_prices_new,
+#custom-price-div-new,
+#new-finish,
+#new-membership-payment,
+#bank-data-new,
+#mp-data-new,
+#new-end,
+#create-new-user,
+#loading-new {
+  display: none;
+  opacity: 0;
+}
+
+.user-data-item {
+  background: whitesmoke;
+  padding: 1% 1%;
+  display: block;
+  border-bottom: 1px solid lightgray;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 0.5% 0;
+}
+span.user-data-item:hover {
+  background: green;
+  color: white;
+}
+#loading-mp, #loading-mp-new {
+  display: none;
+  background-image: url("../img/loading.gif");
+  width: 24px;
+  height: 24px;
+  background-position: center;
+  background-size: 100%;
+}
+
+#msg-finish-edit{
+  background-image: url("../img/loading.gif");
+  width: 50px;
+  height: 50px;
+  background-position: center;
+  background-size: 100%;
+}
